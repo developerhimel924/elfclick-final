@@ -1,0 +1,528 @@
+.logo__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    font-size: 1.2rem;
+}
+
+.nav__container {
+    max-width: 144.5rem;
+    width: 144.5rem;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 3.5rem;
+    width: auto;
+    cursor: pointer;
+}
+
+.store__locator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+nav.nav {
+    box-shadow: 0rem 0rem 1rem -0.5rem black;
+    color: #ff9a02;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.search__bar {
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__bar > input {
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    border: 0.1rem solid #f5f5f5;
+    outline: none;
+    font-weight: 600;
+    background: whitesmoke;
+}
+
+.login__cart__div {
+    width: 40rem;
+}
+
+.login__cart__div > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+
+.store__locator > p {
+    margin-bottom: 0rem;
+    padding: 1rem 0rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.login__cart__div > ul > li {
+    list-style: none;
+}
+.store__locator > p > a {
+    color: #000;
+    margin-right: 2rem;
+    transition: all 0.2s ease-in-out;
+    padding: 1rem 0rem;
+    font-weight: 500;
+}
+
+.store__locator > p > a:hover {
+    color: #fba100;
+}
+.store__locator > p:hover {
+    color: #fba100;
+}
+
+.search__icon {
+    padding: 1.3rem 1.6rem;
+    background: #fba100;
+    color: #fff;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.1s linear;
+}
+
+.login__cart__div > ul > li:last-child {
+    background: #02bfff;
+}
+
+.login__cart__div > ul > li:last-child > a {
+    color: white;
+}
+
+.login__cart__div > ul > li > a {
+    font-weight: 500;
+    color: black;
+    padding: 1rem 2rem;
+    transition: all 0.2s ease-in-out;
+    text-align: left;
+}
+
+a.myCart__btn > span {
+    background: #ffffff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.4rem;
+    margin-left: 0.5rem;
+    color: #000;
+}
+
+a.myCart__btn {
+    background: #62206a;
+    border-radius: 0.4rem;
+    padding: 1rem 2rem !important;
+    color: #fff !important;
+}
+
+a.login__btn:hover {
+    color: #fba100;
+}
+
+a.myCart__btn:hover {
+    background: #501a56;
+}
+
+.search__icon:hover {
+    background: #dc9e31;
+}
+
+.nav__category {
+    margin: auto;
+    background: #0c2e4e;
+    width: 100%;
+}
+ul.menu {
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+ul.menu > li {
+    list-style: none;
+    padding: 0.8rem 2.5rem;
+    transition: all 0.2s cubic-bezier(0, 0, 0.68, 0.69);
+    cursor: pointer;
+    border-top: 1px solid #0c2e4e;
+}
+
+ul.menu > li > a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+}
+
+ul.menu > li:hover {
+    background: #ffffff;
+    border-top: 0.2px solid #0c2e4e;
+}
+
+ul.menu > li:hover a {
+    color: #000;
+}
+
+.megaMenuMainCategoryContainer > ul {
+    margin-bottom: 0rem;
+    background: #ffffff;
+    height: 50rem;
+    box-shadow: 0px 4px 10px -5px black;
+}
+
+.megaMenuMainCategoryContainer > ul > li {
+    padding: 1.5rem;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+    list-style: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.megaMenuMainCategoryContainer > ul > li:hover {
+    color: orange;
+    box-shadow: 0px 0px 10px -8px black;
+}
+
+.megaMenuMainCategoryContainer {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 23rem;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 1, 1);
+}
+
+div#AllCategoriesMenu {
+    width: 144.5rem;
+    margin: auto;
+}
+.megaMenu__container {
+    background: #00000099;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+li#show__all__Categories:hover div.megaMenuMainCategoryContainer {
+    transform: scaleY(1);
+}
+
+.computer__subCat__list__div {
+    display: none;
+}
+.Phones__subCat__list__div {
+    display: none;
+}
+.electronics__subCat__list__div {
+    display: none;
+}
+.elfclick__Fashion__subCat__list__div {
+    display: none;
+}
+.homeandkitchen__subCat__list__div {
+    display: none;
+}
+.babykid__subCat__list__div {
+    display: none;
+}
+.other__Category__subCat__list__div {
+    display: none;
+}
+/* .megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(1):hover
+    div.computer__subCat__list__div {
+    display: block;
+} */
+.megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(2):hover
+    div.Phones__subCat__list__div {
+    display: block;
+}
+.megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(3):hover
+    div.electronics__subCat__list__div {
+    display: block;
+}
+.megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(4):hover
+    div.elfclick__Fashion__subCat__list__div {
+    display: block;
+}
+.megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(5):hover
+    div.homeandkitchen__subCat__list__div {
+    display: block;
+}
+.megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(6):hover
+    div.babykid__subCat__list__div {
+    display: block;
+}
+.megaMenuMainCategoryContainer
+    > ul
+    > li:nth-child(7):hover
+    div.other__Category__subCat__list__div {
+    display: block;
+}
+.subCat__list__div__design {
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0px 20px 60px -20px #000;
+    height: 50rem;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+    transform-origin: left;
+    cursor: initial;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: -1;
+}
+.megaMenuMainCategoryContainer > ul > li > i {
+    font-size: 1.6rem;
+    color: #6f6f6f;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+}
+
+.megaMenuMainCategoryContainer > ul > li:hover i {
+    opacity: 1;
+    transform: translateX(0px);
+}
+ul.Sub__Cat__List__ul > li {
+    list-style: none;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+}
+
+ul.Sub__Cat__List__ul > li:nth-child(1) {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background: whitesmoke;
+    margin-top: 1rem;
+}
+
+ul.Sub__Cat__List__ul > li > a {
+    color: #777777 !important;
+    display: inline-block;
+    width: 100%;
+}
+ul.Sub__Cat__List__ul > li:nth-child(1) > a {
+    color: #0c2e4e !important;
+}
+li.computer__nav__list:hover div.computer__subCat__nav__list__div {
+    transform: scale(1);
+}
+
+.computer__subCat__nav__list__div {
+    top: 35px;
+    transform-origin: top;
+    transform: scale(0);
+    transition: all 0.3s ease;
+}
+.computerAbsolutePosition {
+    left: 0;
+}
+
+.PhoneAbsolutePosition {
+    left: -23rem;
+}
+
+.ElectronicsAbsolutePosition {
+    left: -38rem;
+}
+
+.FashionAbsolutePosition {
+    left: -49rem;
+}
+
+.HomeKitchenAbsolutePosition {
+    left: -63rem;
+}
+
+.BabyAbsolutePosition {
+    left: -78rem;
+}
+
+.otherCategoriesAbsolutePosition {
+    left: -94rem;
+}
+li.computer__nav__list.active:after {
+    content: "" !important;
+}
+li.computer__nav__list.active > a {
+    color: #000 !important;
+}
+.nav__category__main__container {
+    position: relative;
+}
+.mobileMenu {
+    display: none;
+}
+li.mobileMenu {
+    background: #fff !important;
+    font-size: 2.5rem;
+    color: #676767;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.mobilemenuNavContainerVisible {
+    display: none;
+}
+.mobileMenu__Container {
+    transform: scaleY(0);
+    transform-origin: top;
+    height: 0;
+    overflow: hidden;
+    background: #0c2e4e;
+    transition: transform 0.3s ease;
+}
+.show__mobileMenu__Container {
+    transform: scaleY(1);
+    height: auto;
+}
+ul.mobilemenu_cate_ul > li {
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+ul.mobilemenu_cate_ul > li > span {
+    color: #d2d2d2;
+}
+ul.mobilemenu_sub_cate_ul > li {
+    list-style: none;
+    padding: 1rem;
+}
+
+ul.mobilemenu_sub_cate_ul > li:focus {
+    background: #3b5267;
+}
+
+ul.mobilemenu_sub_cate_ul > li > a {
+    color: #b5b5b5;
+    display: inline-block;
+    width: 100%;
+}
+
+ul.mobilemenu_cate_ul {
+    margin: 2rem;
+}
+
+ul.mobilemenu_sub_cate_ul {
+    background: #3b5267;
+    border-radius: 5px;
+    margin-top: 1rem;
+    height: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+li.mobileMenu_cate__name:hover ul {
+    height: auto;
+    transform: scaleY(1);
+}
+.mobileSearch_bar {
+    width: 100%;
+}
+
+form.mobileSearch__bar > input {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #0c2e4e;
+    background: #0c2e4e;
+    padding: 1rem;
+    outline: none;
+}
+
+form.mobileSearch__bar > input::placeholder {
+    color: rgb(221, 221, 221);
+    font-weight: 700;
+}
+
+form.mobileSearch__bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.mobile__search__icon {
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    background: orange;
+    color: #fff;
+    border-top-color: orange;
+    border-bottom-color: orange;
+    border-right-color: orange;
+    border-left-color: orange;
+}
+li.myprofile_btn_li {
+    padding: 0 !important;
+}
+
+a.myprofile_btn {
+    padding: 0.8rem 1rem !important;
+    margin-left: 1rem;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    color: #0c2e4e !important;
+    font-size: 1.5rem;
+}
+
+a.myprofile_btn:hover {
+    background: #0c2e4e !important;
+    color: #fff !important;
+    border-color: #0c2e4e;
+}
+.logprofiledivmobile {
+    background: #fff;
+    padding: 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logprofiledivmobile > a.myCart__btn {
+    background: transparent;
+    color: #000 !important;
+    border: 1px solid gainsboro;
+    padding: 0.5rem 1rem !important;
+    margin: 0 !important;
+}
+
+.logprofiledivmobile > a.myprofile_btn {
+    padding: 0.3rem 0.6rem !important;
+}

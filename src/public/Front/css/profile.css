@@ -1,0 +1,46 @@
+.profilewrapper {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    background: #f5f9fc;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.profileuserpicdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.profileuserpicdiv > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profileuserinfodiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileuserinfodiv > span {
+    color: #0c2e4e;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.profileuserinfodiv > span > span {
+    color: #6b6b6b;
+    font-weight: 500;
+}
